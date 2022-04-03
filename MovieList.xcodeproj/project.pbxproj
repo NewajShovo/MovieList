@@ -19,6 +19,9 @@
 		E3D4FD4927F96D3F0068109D /* MovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D4FD4727F96D3F0068109D /* MovieDetails.swift */; };
 		E3D4FD4A27F96D3F0068109D /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D4FD4827F96D3F0068109D /* MovieList.swift */; };
 		E3D4FD4D27F96D5F0068109D /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D4FD4C27F96D5F0068109D /* APIService.swift */; };
+		E3D4FD5127F974090068109D /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D4FD5027F974090068109D /* MovieTableViewCell.swift */; };
+		E3D4FD5427F975D00068109D /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D4FD5327F975D00068109D /* MovieListViewModel.swift */; };
+		E3D4FD5627F9771E0068109D /* MovieListTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D4FD5527F9771E0068109D /* MovieListTableViewDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		E3D4FD4727F96D3F0068109D /* MovieDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetails.swift; sourceTree = "<group>"; };
 		E3D4FD4827F96D3F0068109D /* MovieList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
 		E3D4FD4C27F96D5F0068109D /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		E3D4FD5027F974090068109D /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		E3D4FD5327F975D00068109D /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
+		E3D4FD5527F9771E0068109D /* MovieListTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +111,9 @@
 		E3D4FD1127F96C510068109D /* MovieList */ = {
 			isa = PBXGroup;
 			children = (
+				E3D4FD4F27F973DD0068109D /* MovieTableViewCell */,
 				E3D4FD4B27F96D5F0068109D /* APIService */,
+				E3D4FD5227F975AF0068109D /* ViewModel */,
 				E3D4FD4627F96D3F0068109D /* Models */,
 				E3D4FD4E27F96D6A0068109D /* Controller */,
 				E3D4FD1227F96C510068109D /* AppDelegate.swift */,
@@ -138,8 +146,8 @@
 		E3D4FD4627F96D3F0068109D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E3D4FD4727F96D3F0068109D /* MovieDetails.swift */,
 				E3D4FD4827F96D3F0068109D /* MovieList.swift */,
+				E3D4FD4727F96D3F0068109D /* MovieDetails.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -158,6 +166,23 @@
 				E3D4FD1627F96C510068109D /* ViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		E3D4FD4F27F973DD0068109D /* MovieTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E3D4FD5027F974090068109D /* MovieTableViewCell.swift */,
+			);
+			path = MovieTableViewCell;
+			sourceTree = "<group>";
+		};
+		E3D4FD5227F975AF0068109D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E3D4FD5527F9771E0068109D /* MovieListTableViewDataSource.swift */,
+				E3D4FD5327F975D00068109D /* MovieListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +318,9 @@
 			files = (
 				E3D4FD1727F96C510068109D /* ViewController.swift in Sources */,
 				E3D4FD1327F96C510068109D /* AppDelegate.swift in Sources */,
+				E3D4FD5627F9771E0068109D /* MovieListTableViewDataSource.swift in Sources */,
+				E3D4FD5127F974090068109D /* MovieTableViewCell.swift in Sources */,
+				E3D4FD5427F975D00068109D /* MovieListViewModel.swift in Sources */,
 				E3D4FD1527F96C510068109D /* SceneDelegate.swift in Sources */,
 				E3D4FD4A27F96D3F0068109D /* MovieList.swift in Sources */,
 				E3D4FD4D27F96D5F0068109D /* APIService.swift in Sources */,
